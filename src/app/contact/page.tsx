@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 
-export default function page() {
+export default function Page() {
     const [formData, setFormData] = useState({
         name: "",
         email: "",

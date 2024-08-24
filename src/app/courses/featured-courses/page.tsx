@@ -7,7 +7,7 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import coursesData from "@/data/music_courses.json"
 
-function page() {
+function Page() {
     const featuredCourses = coursesData.courses.filter((course) => course.isFeatured)
     return (
         <div className="min-h-screen bg-black py-12 pt-36">
