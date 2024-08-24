@@ -18,7 +18,7 @@ export default function Page() {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         // Handle form submission logic here
         alert("Just a Dummy form!!💥");
